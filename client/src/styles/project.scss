@@ -1,0 +1,22 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    .project-image {
+        width: 18em;
+        margin: 0 auto;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0em 2em;
+        border: 2px solid lightgray;
+        border-radius: 4px;
+        .about-description {
+            max-width: 40%;
+        }
+    }
+}
